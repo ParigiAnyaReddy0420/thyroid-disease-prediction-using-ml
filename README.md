@@ -5,23 +5,23 @@ This project aims to predict thyroid disease using machine learning techniques b
 
 Objectives
 
-To preprocess and analyze thyroid patient data
+1.To preprocess and analyze thyroid patient data
 
-To apply machine learning algorithms for disease prediction
+2.To apply machine learning algorithms for disease prediction
 
-To compare model performance using evaluation metrics
+3.To compare model performance using evaluation metrics
 
-To identify the most accurate prediction model
+4.To identify the most accurate prediction model
 
 Machine Learning Models
 
-Logistic Regression
+1.Logistic Regression
 
-Decision Tree
+2.Decision Tree
 
-Random Forest
+3.Random Forest
 
-CatBoost
+4.CatBoost
 
 Dataset
 
@@ -30,27 +30,17 @@ Source: UCI Machine Learning Repository / Kaggle
 Features include TSH, T3, T4 levels, age, gender, and clinical parameters
 
 Tools & Technologies
-
+ 
 Python
-
 Google Colab
-
 NumPy, Pandas
-
 Matplotlib, Seaborn
-
 Scikit-learn, CatBoost
-
 Methodology
-
 Data collection and cleaning
-
 Feature encoding and scaling
-
 Train-test data splitting
-
 Model training and evaluation
-
 Result analysis and prediction
 
 Results
