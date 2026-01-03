@@ -1,85 +1,70 @@
 # thyroid-disease-prediction-using-ml
- Developed a predictive model using SVM, KNN, De cision Tree, and Random Forest. Performed data preprocessing, SMOTE for class balancing, and evaluated models using accuracy, precision, recall, and F1-score.
- 🎯 Objectives
+ Project Description
 
-To preprocess thyroid patient data effectively
+This project aims to predict thyroid disease using machine learning techniques based on patient clinical data. Thyroid disorders such as hypothyroidism and hyperthyroidism affect hormone balance and overall health. Early detection is important for effective treatment, and this system helps in predicting the condition accurately using data-driven models.
 
-To train and evaluate multiple machine learning models
+Objectives
 
-To compare model performance using standard metrics
+To preprocess and analyze thyroid patient data
 
-To improve accuracy in thyroid disease prediction
+To apply machine learning algorithms for disease prediction
 
-🧠 Machine Learning Models Used
+To compare model performance using evaluation metrics
+
+To identify the most accurate prediction model
+
+Machine Learning Models
 
 Logistic Regression
 
-Decision Tree Classifier
+Decision Tree
 
-Random Forest Classifier
-
-CatBoost Classifier
-
-📊 Dataset
-
-Source: UCI Machine Learning Repository / Kaggle
-
-Features include:
-
-TSH, T3, T4 levels
-
-Age, Gender
-
-Clinical and diagnostic attributes
-
-⚙️ Technologies & Tools
-
-Programming Language: Python
-
-Platform: Google Colab
-
-Libraries:
-
-NumPy
-
-Pandas
-
-Matplotlib
-
-Seaborn
-
-Scikit-learn
+Random Forest
 
 CatBoost
 
-🛠️ Project Workflow
+Dataset
 
-Data Collection
+Source: UCI Machine Learning Repository / Kaggle
 
-Data Cleaning & Preprocessing
+Features include TSH, T3, T4 levels, age, gender, and clinical parameters
 
-Feature Encoding & Scaling
+Tools & Technologies
 
-Model Training
+Python
 
-Model Evaluation
+Google Colab
 
-Prediction Output
+NumPy, Pandas
 
-📈 Performance Metrics
+Matplotlib, Seaborn
 
-Accuracy
+Scikit-learn, CatBoost
 
-Precision
+Methodology
 
-Recall
+Data collection and cleaning
 
-F1-Score
+Feature encoding and scaling
 
-Confusion Matrix
+Train-test data splitting
 
-ROC-AUC Curve
+Model training and evaluation
 
-Best Accuracy Achieved:
+Result analysis and prediction
 
-Random Forest & CatBoost – 97.30%
+Results
+
+Random Forest and CatBoost classifiers achieved the highest accuracy of 97.30%, showing strong performance in thyroid disease prediction.
+
+Applications
+
+Medical diagnosis support
+
+Early detection of thyroid disorders
+
+Healthcare data analysis
+
+Conclusion
+
+The project demonstrates that machine learning models can effectively predict thyroid disease with high accuracy. Ensemble models performed better compared to basic classifiers, making them suitable for healthcare applications.
